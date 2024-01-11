@@ -18,6 +18,12 @@ export default function SignUp(){
 
                     <label for="password" className="email-label password-lable">Password</label><br/>
                     <input type="password" id="password" className="email-input" required/>
+
+                    <select id="userType" className="select m-6" required>
+                        <option value="customer">Customer</option>
+                        <option value="seller">Seller</option>
+                    </select>
+
                     <p className="sign-up-paragraph">Already a member? <Link to='/'>Log In</Link></p>
                     <button type="submit" >SIGN UP</button>
                 

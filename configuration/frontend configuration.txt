@@ -2,6 +2,9 @@ Run the following commands in backend and frontend:
 1: npm install;
 
 
+npm install nodemon in backend
+
+
 Run the following in frontend only:
 1: npm install --save react-toastify
 2: npm add formik

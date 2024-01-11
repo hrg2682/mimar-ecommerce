@@ -1,6 +1,5 @@
 import React from "react";
-import {Link, useNavigate} from 'react-router-dom'
-//onClick={()=> navigate('home')}
+import {Link, useNavigate} from 'react-router-dom';
 
 export default function Login(){
     const navigate =useNavigate();
@@ -13,7 +12,7 @@ export default function Login(){
     return(
         <body>
             <div className="main-div">
-                <h2 className="login-heading">Login branch 2</h2>
+                <h2 className="login-heading">Login</h2>
                 <form onSubmit={handleSubmit}>
                     <label for="email" className="email-label">Email</label><br/>
                     <input type="email" id="email" className="email-input" required/>
