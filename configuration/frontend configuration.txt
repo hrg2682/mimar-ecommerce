@@ -1,0 +1,8 @@
+Run the following commands in backend and frontend:
+1: npm install;
+
+
+Run the following in frontend only:
+1: npm install --save react-toastify
+2: npm add formik
+3: npm add yup

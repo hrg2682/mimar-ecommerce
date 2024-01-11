@@ -1,0 +1,56 @@
+body{
+    background-color: aqua
+}
+.main-div{
+    height: 380px;
+    width: 300px;
+    background-color: rgb(250, 228, 228);
+    border-radius: 4px;
+    margin: 70px auto;
+}
+.login-heading{
+   margin-left: 110px; 
+   margin-top: 30px;
+   padding-top: 30px;
+}
+.email-input{
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 260px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(219, 206, 206)
+}
+.email-label{
+   margin-left: 20px;
+}
+button{
+    height: 35px;
+    width: 230px;
+    border-radius: 20px;
+    display: block;
+    margin: 50px auto;
+    background-color: rgb(15, 177, 177);
+    color: white;
+}
+.anchor{
+    text-decoration: none;
+    margin-left: 100px;
+    
+}
+p{
+    margin-left: 90px;
+}
+a{
+    text-decoration: none;
+}
+.main-div-sign-up{
+    height: 450px;
+}
+.sign-up-paragraph{
+    margin-left: 60px;
+}
+.link-to-sign-up{
+    margin-left: 50px;
+}
